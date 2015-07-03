@@ -11,9 +11,9 @@ def optimize_caltrain(days):
 
     if non_monthly_price < 179:
         if eight_rides != 0:
-            print eight_rides, '8-ride tickets for', eight_rides_price
+            print eight_rides, 'Caltrain 8-rides for', eight_rides_price
         if normal_days != 0:
-            print normal_days, 'Caltrain days', normal_days_price
+            print normal_days, 'Caltrain normal tickets for', normal_days_price
         return non_monthly_price
     else:
         print 'Caltrain monthly pass for', 179
@@ -26,7 +26,7 @@ def optimize_muni(days):
 
     individual_ticket_price = days * 4.50
     if individual_ticket_price < 70:
-        print days, 'invidual tickets for', individual_ticket_price
+        print days, 'individual Muni tickets for', individual_ticket_price
         return individual_ticket_price
     else:
         print 'Muni month pass for', 70

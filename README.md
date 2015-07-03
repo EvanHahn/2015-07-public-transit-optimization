@@ -15,9 +15,9 @@ I wrote a little Python script (Python 2, not Python 3) script that figures out 
     ...
 
     7 days of Caltrain, 13 days of Muni
-    1 8-ride tickets for 50.0
-    3 Caltrain days 40.5
-    13 invidual tickets for 58.5
+    1 Caltrain 8-rides for 50.0
+    3 Caltrain normal tickets for 40.5
+    13 individual Muni tickets for 58.5
     Total: 149.0
 
     ...
